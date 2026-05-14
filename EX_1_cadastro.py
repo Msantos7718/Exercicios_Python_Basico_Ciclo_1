@@ -2,7 +2,7 @@
 
 # OUTPUT ESPERADO:
 
-# | ------------------------------ |
+# | ----------------0-------------- |
 # | ---------- CADASTRO ---------- |
 # | ------------------------------ |
 # | Nome: Maria
@@ -25,3 +25,13 @@ senha = int(input("Digite a sua senha :"))
 print(" | ------------------------------ |")
 print("| ---------- CADASTRO ---------- |")
 print("| ------------------------------ |")
+
+print(f'|nome:{nome}')
+print(f'|idade:{idade}')
+print(f'|email:{email}')
+print(f'|senha:{senha}')
+
+#|-----USUARIO CADASTRADO---|
+print(f'| seja bem vinda {nome}')
+print(f'|email:{email}:')
+#|------------------------------|

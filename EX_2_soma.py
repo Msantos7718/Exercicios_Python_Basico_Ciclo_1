@@ -7,4 +7,7 @@
 
 
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
-
+usuario01= float(input('digite um numero'))
+usuario02=float(input('digite outro numero'))
+soma= usuario01+usuario02
+print(soma)
